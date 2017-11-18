@@ -1,0 +1,13 @@
+runtime: nodejs
+env: flex
+
+env_variables:
+  # --REQUIRED--
+  DATABASE_URI: mongodb://localhost:27017/dev
+  APP_ID: 000
+  MASTER_KEY: 111
+  SERVER_URL: http://localhost:1337/parse
+  # --OPTIONAL--
+  # FILE_KEY: <your-file-key>
+  # PARSE_MOUNT: /parse
+  # CLOUD_CODE_MAIN:  
