@@ -9,11 +9,15 @@
   },
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "~4.11.x",
     "kerberos": "~0.0.x",
+    "ms": "~> 0.7.1",
     "parse": "~1.8.0",
     "parse-server": "*",
-    "ms": "~> 0.7.1"
+    "underscore": "^1.8.3",
+    "underscore-node": "^0.1.2",
+    "underscore.string": "^3.3.4"
   },
   "scripts": {
     "start": "node index.js"
